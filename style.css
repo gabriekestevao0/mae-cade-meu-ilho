@@ -68,11 +68,22 @@ button {
 
 #helena {
     position: absolute;
+
     left: 50%;
     top: 50%;
+
+    width: 90px;
+    height: 140px;
+
     transform: translate(-50%, -50%);
-    font-size: 55px;
+
+    background-image: url("helena.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
     z-index: 5;
+
     transition: 0.2s;
 }
 
